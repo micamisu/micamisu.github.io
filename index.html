@@ -96,8 +96,8 @@ const lightboxc = new PhotoSwipeLightbox({
 });
 lightboxc.init();
 
-const lightboxi = new PhotoSwipeLightbox({
-  gallerySelector: '#galleryi',
+const lightboxa = new PhotoSwipeLightbox({
+  gallerySelector: '#gallerya',
   childSelector: '.pswp-gallery__item',
 
         // optionaly adjust viewport
@@ -106,7 +106,7 @@ const lightboxi = new PhotoSwipeLightbox({
   },
   pswpModule: () => import('https://unpkg.com/photoswipe')
 });
-lightboxi.init();
+lightboxa.init();
 
 const lightboxs = new PhotoSwipeLightbox({
   gallerySelector: '#gallerys',
@@ -119,7 +119,6 @@ const lightboxs = new PhotoSwipeLightbox({
   pswpModule: () => import('https://unpkg.com/photoswipe')
 });
 lightboxs.init();
-
 </script>
 
 </head>
@@ -150,7 +149,7 @@ lightboxs.init();
         <div id="sketch">
           <ul class="list-unstyled fw-normal pb-1 ms-3">
             <li><a href="#galleryc" class="link-dark rounded">Canterbury Tales</a></li>
-            <li><a href="#galleryi" class="link-dark rounded">Art & Illustrations</a></li>
+            <li><a href="#gallerya" class="link-dark rounded">Art & Illustrations</a></li>
             <li><a href="#gallerys" class="link-dark rounded">Studies & Sketches</a></li>
           </ul>
         </div>
@@ -264,25 +263,6 @@ lightboxs.init();
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-4">
-            <div class="pswp-gallery__item">
-                <a href="https://realmatic.com/assets/micamisu/media/story/J_10.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank" >
-                  <img src="https://realmatic.com/assets/micamisu/media/story/J_10.jpg" class="w-100 mb-2" alt="" />
-                </a>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4">
-            <div class="pswp-gallery__item">
-                <a href="https://realmatic.com/assets/micamisu/media/story/J_11.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank" >
-                  <img src="https://realmatic.com/assets/micamisu/media/story/J_11.jpg" class="w-100 mb-2" alt="" />
-                </a>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4">
-          </div>
-
       </div>
       <!--- gallery J --->
 
@@ -295,6 +275,14 @@ lightboxs.init();
 
       <!--- gallery G --->
       <div class="row pswp-gallery justify-content-center px-5 mt-3" id="galleryg">
+
+          <div class="col-sm-12 col-md-4">
+            <div class="pswp-gallery__item">
+                <a href="https://realmatic.com/assets/micamisu/media/story/GF_1.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank" >
+                  <img src="https://realmatic.com/assets/micamisu/media/story/GF_1.jpg" class="w-100 mb-2" alt="" />
+                </a>
+            </div>
+          </div>
 
           <div class="col-sm-12 col-md-4">
             <div class="pswp-gallery__item">
@@ -312,8 +300,6 @@ lightboxs.init();
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-4">
-          </div>
       </div>
       <!--- gallery G --->
 
@@ -435,6 +421,46 @@ lightboxs.init();
 
       </div>
       <!--- gallery C --->
+
+      <!--- gallery A --->
+      <div class="row pswp-gallery justify-content-center px-5 mt-3" id="gallerya">
+
+          <div class="col-12">
+          <hr>
+          <h4>Art & Illustrations</h4>
+            <div class="pswp-gallery__item">
+                <a href="https://realmatic.com/assets/micamisu/media/story/A_1.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank" >
+                  <img src="https://realmatic.com/assets/micamisu/media/story/A_1.jpg" class="w-100 mb-2" alt="" />
+                </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="pswp-gallery__item">
+                <a href="https://realmatic.com/assets/micamisu/media/story/A_2.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank" >
+                  <img src="https://realmatic.com/assets/micamisu/media/story/A_2.jpg" class="w-100 mb-2" alt="" />
+                </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="pswp-gallery__item">
+                <a href="https://realmatic.com/assets/micamisu/media/story/A_3.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank" >
+                  <img src="https://realmatic.com/assets/micamisu/media/story/A_3.jpg" class="w-100 mb-2" alt="" />
+                </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="pswp-gallery__item">
+                <a href="https://realmatic.com/assets/micamisu/media/story/A_4.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank" >
+                  <img src="https://realmatic.com/assets/micamisu/media/story/A_4.jpg" class="w-100 mb-2" alt="" />
+                </a>
+            </div>
+          </div>
+
+      </div>
+      <!--- gallery A --->
 
     </main>
   </div>
